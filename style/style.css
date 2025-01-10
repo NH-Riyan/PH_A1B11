@@ -181,3 +181,48 @@ margin-top: 48px;
 {
     background-color: #FFC239;
 }
+
+/* main donation part */
+.donate{
+    padding: 0px 105px;
+    margin-bottom: 80px;
+}
+.donate h2,.donate p{
+    text-align: center;
+}
+.donate p{  
+    margin-top: 24px ;
+    padding: auto;
+}
+.donation-amounts{
+    margin: 32px 0px;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 24px;
+}
+.donation-amount h3{
+    padding: 40px;
+    background-color: white;
+     border-radius: 16px;
+}
+
+.donate input[type="text"]
+{
+    width: 80%;
+    height: 65px;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: white;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.donate button{
+    margin-top: 32px;
+    padding: 17px 34px;
+    display: block;
+    text-align: center;
+    margin: 32px auto;
+}
