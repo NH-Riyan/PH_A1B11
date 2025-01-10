@@ -125,3 +125,59 @@ nav h2{
     border-radius: 16px;
  }
 
+/* main section-2 */
+.vision-p{
+    margin: 24px 0 32px 0;
+}
+.vision-boxs{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-boxs h3{
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.vision-box-1,.vision-box-2,.vision-box-3
+{
+    padding: 32px 24px;
+    border-radius: 8px;
+    width: 550px;
+}
+
+.vision-box-1,.vision-box-1 h3,.vision-box-1 p,.vision-box-1 img{
+    background-color: rgba(189, 214, 255, 1);
+    
+}
+.vision-box-2,.vision-box-2 h3,.vision-box-2 p,.vision-box-2 img{
+    background-color: rgba(198, 228, 214, 1) ;
+}
+.vision-box-3,.vision-box-3 h3,.vision-box-3 p,.vision-box-3 img{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision-boxs button{
+margin-top: 48px;
+ font-size: 16px;
+ font-weight: 600;
+ color: white;
+ padding: 11px 20px;
+ border-radius: 8px;
+ border: none;
+}
+
+.vision-box-1 button
+{
+    background-color:#5490F5 ;
+}
+.vision-box-2 button
+{
+    background-color:#09A15C ;
+}
+.vision-box-3 button
+{
+    background-color: #FFC239;
+}
