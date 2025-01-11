@@ -228,7 +228,7 @@ nav h2 {
 
 .pri-speech {
     padding-top: 24px;
-    background-image: url(assets/quote-bg.png);
+    background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
