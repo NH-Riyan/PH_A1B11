@@ -183,8 +183,10 @@ margin-top: 48px;
 }
 
 /* Recent News */
+
 .news-container{
-    margin: 80px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .news-outer-p{
     margin: 24px 0 32px 0;
