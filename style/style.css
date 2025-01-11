@@ -457,3 +457,7 @@ footer hr {
     color: black;
 
 }
+
+.donation-amount :hover{
+  background-color: #6e7b92;
+}
