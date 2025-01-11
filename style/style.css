@@ -65,16 +65,13 @@ nav h2{
     /* width: 1200px; */
     background-color: #C6E4D6; 
     border: none;
-    border-radius: 8px;
-    background-image: url(../assets/hero.png);
-    background-repeat: no-repeat;
-    background-position-x: 950px;
-    background-position-y: 50px;
-    padding: 117px 60px;
+    display: flex;
+    border-radius: 24px;
     margin-bottom: 80px;
 }
 .banner-titles
-{      
+{    
+     margin: 117px 60px;  
     background-color: #C6E4D6;
     width: 625px;
 }
@@ -82,7 +79,7 @@ nav h2{
     background-color: #C6E4D6;
     margin-bottom: 16px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight:500;
     color: rgba(14, 14, 14, 0.5);
  }
 
@@ -93,9 +90,12 @@ nav h2{
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
  }
-
  .banner-btn{
     padding: 17px 32px;
+ }
+ .banner img{
+    margin: 90px 65px;
+    background-color: #C6E4D6;
  }
  /* main section-1 */
 .pillars{
@@ -144,7 +144,7 @@ nav h2{
 .vision-box-1,.vision-box-2,.vision-box-3
 {
     padding: 32px 24px;
-    border-radius: 8px;
+    border-radius: 16px;
     width: 550px;
 }
 
@@ -160,7 +160,8 @@ nav h2{
 }
 
 .vision-boxs button{
-margin-top: 48px;
+    
+  margin-top: 48px;
  font-size: 16px;
  font-weight: 600;
  color: white;
@@ -181,7 +182,29 @@ margin-top: 48px;
 {
     background-color: #FFC239;
 }
-
+/*  */
+.speech{
+    padding: 24px 24px 48px 24px;
+    background-color: white;
+    margin:32px 0 ;
+    border-radius: 16px;
+   
+}
+.speech p ,.speech h4{
+    background-color: white; 
+}
+.pri-speech{
+    padding-top: 24px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+}
+.speech h4{
+    margin:12px 0 5px 0 ;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8)
+}
 /* Recent News */
 
 .news-container{
@@ -195,7 +218,6 @@ margin-top: 48px;
     margin-bottom: 24px;
 }
 .news-box{
-
    background-color: white;
    border-radius: 24px;
    padding: 50px;
@@ -210,6 +232,7 @@ margin-top: 48px;
 }
 .news-details{
     width: 745px;
+    padding-top: 6px;
 }
 .news-details h3{
     font-size: 32px;
@@ -221,10 +244,11 @@ margin-top: 48px;
 }
 .time{
     display: flex;
+     margin-bottom: 12px;
     gap: 12px;
 }
-.news-details p{
-    margin: 12px 0 32px 0;
+.news-details-p{
+    margin-bottom: 32px;
 }
 .news-details button{
     padding: 13px 26px;
@@ -302,7 +326,6 @@ margin-top: 48px;
     margin-right: 0;
  background-color:white;
  font-size: 16px;
- /* height: 55px; */
  font-weight: normal;
  color: rgba(14, 14, 14, 0.3);
  padding: 10px 40px;
@@ -316,7 +339,7 @@ margin-top: 48px;
 
     display: flex;
     align-items: center;
-    padding: 45px 34px;
+    padding: 24px 34px;
     border-radius: 0;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
