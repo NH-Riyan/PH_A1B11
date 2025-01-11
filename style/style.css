@@ -70,7 +70,6 @@ nav h2 {
 
 /* banner */
 .banner {
-    /* width: 1200px; */
     background-color: #C6E4D6;
     border: none;
     display: flex;
@@ -109,7 +108,8 @@ nav h2 {
     background-color: #C6E4D6;
 }
 
-/* main section-1 */
+/* main  */
+/* pillars of BD */
 .pillars {
     margin-bottom: 80px;
 }
@@ -140,7 +140,7 @@ nav h2 {
     border-radius: 16px;
 }
 
-/* main section-2 */
+/* vision */
 .vision-p {
     margin: 24px 0 32px 0;
 }
@@ -212,7 +212,7 @@ nav h2 {
     background-color: #FFC239;
 }
 
-/*  */
+/* speech */
 .speech {
     padding: 24px 24px 48px 24px;
     background-color: white;
@@ -228,7 +228,7 @@ nav h2 {
 
 .pri-speech {
     padding-top: 24px;
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -305,11 +305,7 @@ nav h2 {
     padding: 13px 26px;
 }
 
-
-
-
-
-/* main donation part */
+/* donation part */
 .donate {
     padding: 0px 105px;
     margin-bottom: 80px;
