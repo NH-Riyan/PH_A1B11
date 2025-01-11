@@ -145,13 +145,13 @@ nav h2 {
     margin: 24px 0 32px 0;
 }
 
-.vision-boxs {
+.vision-boxes {
     display: flex;
     gap: 24px;
     margin-top: 32px;
 }
 
-.vision-boxs h3 {
+.vision-boxes h3 {
     width: 70%;
     font-size: 20px;
     font-weight: bold;
@@ -189,7 +189,7 @@ nav h2 {
     background-color: rgba(247, 235, 207, 1);
 }
 
-.vision-boxs button {
+.vision-boxes button {
 
     margin-top: 48px;
     font-size: 16px;
